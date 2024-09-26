@@ -2,6 +2,10 @@
 
 ## Future Directions
 
+・Investigating $(\alpha, \beta)$-admissible distributions on $\mathbb{R}^m$.
+
+・Developing more efficient methods for computing direction-oriented local sensitivity and smooth sensitivity.
+
 ## Note
 
 For details of our methods and discussion, please see our paper entitled "Direction-Oriented Smooth Sensitivity and Its Application to Genomic Statistical Analysis".
