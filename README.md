@@ -2,7 +2,7 @@
 
 ## Future Directions
 
-・Investigating $(\alpha, \beta)$-admissible distributions on $\mathbb{R}^m$.
+・Investigating $(\alpha, \beta)$-admissible distributions on $m$-dimensional space, especially when $m$ is large.
 
 ・Developing more efficient methods for computing direction-oriented local sensitivity and smooth sensitivity.
 
