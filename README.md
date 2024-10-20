@@ -8,7 +8,7 @@ In "beta_evaluation" folder, the evaluation for the characteristics of the two g
 
 In "distribution_evaluation" folder, the most advisable $(\alpha, \beta)$-admissible distribution for noise generation was investigated.
 
-"vs SS" folder provides the comparison results between our DOSS and the original ${\it smooth sensitivity)$ in terms of output accuracy.
+"vs SS" folder provides the comparison results between our DOSS and the original ${\it smooth sensitivity}$ in terms of output accuracy.
 
 The run time of our algorithm (Algorithm 1 in our paper) used for computing the ${\it direction-oriented smooth sensitivity}$ was measured for reference, in "RunTime" folder.
 
