@@ -15,6 +15,8 @@ The run time of our algorithm (Algorithm 1 in our paper) was measured for refere
 
 ## Future Directions
 
+・Conducting rigorous theoretical analysis of the influence of $(k,l)$ on the noise distributions and the exploration of the "optimal" distribution with reference to it.
+
 ・Investigating $(\alpha, \beta)$-admissible distributions on $m$-dimensional space, especially when $m$ is large.
 
 ・Developing more efficient methods for computing direction-oriented local sensitivity and smooth sensitivity.
