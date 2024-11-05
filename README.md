@@ -21,6 +21,8 @@ The run time of our algorithm (Algorithm 1 in our paper) was measured for refere
 
 ・Developing more efficient methods for computing direction-oriented local sensitivity and smooth sensitivity.
 
+・Are there any cases where $\alpha$ and $\beta$ in the ${\it admissible}$ property should not be represented as linear functions of $\epsilon$? / Given functions $\alpha$ and $\beta$, is it possible to find an $(\alpha, \beta)$- ${\it admissible}$ distribution?
+
 ## Note
 
 For details of our methods and discussion, please see our paper entitled "Direction-Oriented Smooth Sensitivity and Its Application to Genomic Statistical Analysis".
