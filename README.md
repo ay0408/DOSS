@@ -12,6 +12,8 @@ In "distribution_evaluation" folder, the most advisable $(\alpha, \beta)$-admiss
 
 The run time of our algorithm (Algorithm 1 in our paper) was measured for reference, in "RunTime" folder.
 
+The omitted proofs in the main paper are provided in Proofs.pdf.
+
 
 ## Future Directions
 
