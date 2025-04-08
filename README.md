@@ -26,7 +26,7 @@ The run time of our algorithm (Algorithm 1 in our paper) was measured for refere
 
 ## Note
 
-For details of our methods and discussion, please see our paper entitled "Direction-Oriented Smooth Sensitivity and Its Application to Genomic Statistical Analysis".
+For details of our methods and discussion, please see our paper entitled "Direction-Oriented Smooth Sensitivity and Its Application to Genomic Statistical Analysis" (to appear at ACISP 2025).
 
 ### Contact
 Akito Yamamoto
