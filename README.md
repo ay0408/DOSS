@@ -28,7 +28,7 @@ The omitted proofs in the main paper are provided in Proofs.pdf.
 
 ## Note
 
-For details of our methods and discussion, please see our paper entitled "Direction-Oriented Smooth Sensitivity and Its Application to Genomic Statistical Analysis" (to appear at ACISP 2025).
+For details of our methods and discussion, please see our paper entitled "Direction-Oriented Smooth Sensitivity and Its Application to Genomic Statistical Analysis" (https://doi.org/10.1007/978-981-96-9101-2_4) presented at ACISP 2025. 
 
 ### Contact
 Akito Yamamoto
