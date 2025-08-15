@@ -38,6 +38,10 @@ If you find any other important issues or errors, please feel free to contact me
 
 For details of our methods and discussion, please see our paper entitled "Direction-Oriented Smooth Sensitivity and Its Application to Genomic Statistical Analysis" (https://doi.org/10.1007/978-981-96-9101-2_4) presented at ACISP 2025. 
 
+Errata:  
+・Lemma 2, "is $\epsilon$-differentially private" → "can be $\epsilon$-differentially private"  
+In particular, when $\forall x,y \in D^n, d(x,y)= 1 \ \mathrm{and} \ \forall i: \ \ S^{ i  -}(x) \leq e^{\beta} \cdot S^{ i  +}(y) \land S^{ i  +}(x) \leq e^{\beta} \cdot S^{ i  -}(y)$ holds, the alogorithm is $\epsilon$-differentially private. In Proofs.pdf, we provide the proof for the case. (See also Important Note above.)
+
 ### Contact
 Akito Yamamoto
 
