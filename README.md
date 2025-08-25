@@ -19,7 +19,7 @@ We should state that Lemma 2 is satisfied (i.e., $\epsilon$-differential privacy
 $\forall x,y \in D^n, d(x,y)= 1 \ \mathrm{and} \ \forall i: \ \ S^{ i  -}(x) \leq e^{\beta} \cdot S^{ i  +}(y) \land S^{ i  +}(x) \leq e^{\beta} \cdot S^{ i  -}(y).$   
 (The Proofs.pdf was revised accordingly.) Please note that the experiments in this study were in the case where the above condition holds.
 
-In our next paper (regarding this topic), we will modify and improve the current DOSS including the above point and propose more reliable and useful concepts and algorithms.
+In our next paper (regarding this topic), we will modify and improve the current DOSS including the above point and propose more reliable and useful concepts and algorithms. A more concise proof will also be provided.
 
 If you find any other important issues or errors, please feel free to contact me!
 
