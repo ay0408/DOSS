@@ -17,7 +17,7 @@ The omitted proofs in the main paper are provided in Proofs.pdf.
 ## Important Note
 We should state that Lemma 2 is satisfied (i.e., the algorithm using the proposed DOSS is $\epsilon$-differentially private) when the following relation holds:  
 $\forall x,y \in D^n, d(x,y)= 1 \ \mathrm{and} \ \forall i: \ \ S^{ i  -}(x) \leq e^{\beta} \cdot S^{ i  +}(y) \land S^{ i  +}(x) \leq e^{\beta} \cdot S^{ i  -}(y).$   
-(The Proofs.pdf was revised accordingly.) Please note that the experiments in this study assumed that the above condition holds.
+(The Proofs.pdf was revised accordingly.) Please note that the experiments in this study assumed that the above condition held for the obtained $S^{ i \pm}(x)$.
 
 In our next paper (regarding this topic), we will modify and improve the current DOSS including the above point and propose more reliable and useful concepts and algorithms. A more concise proof will also be provided.
 
