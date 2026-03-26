@@ -42,7 +42,7 @@ Errata:
 ・Lemma 2, "is $\epsilon$-differentially private" → "can be $\epsilon$-differentially private"  
 In particular, when $\forall x,y \in D^n, d(x,y)= 1 \ \mathrm{and} \ \forall i: \ \ S^{ i  -}(x) \leq e^{\beta} \cdot S^{ i  +}(y) \land S^{ i  +}(x) \leq e^{\beta} \cdot S^{ i  -}(y)$ holds, the alogorithm is $\epsilon$-differentially private. In Proofs.pdf, we provide the proof for the case. (See also Important Note above.)  
 ・The variables $z^+$ and $z^-$ are derived for each $i \in \[m\]$ independently. (In Proofs.pdf, this point has been clarified.)  
-・Theorem 1, "For any $k > 1$" should be "For any $k \geq 2$".
+・Theorem 1, "For any $k > 1$" → "For any $k \geq 2$".
 
 ### Contact
 Akito Yamamoto
