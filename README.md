@@ -23,7 +23,7 @@ $\forall x,y \in D^n, d(x,y)= 1 \ \mathrm{and} \ \forall i: \ \ S^{ i  -}(x) \le
 In our paper at IEEE CCWC 2026 on [Enhanced DOSS](https://github.com/ay0408/EnhancedDOSS), we addressed the above issue and proposed more reliable and useful concepts and algorithms. A more concise proof was also provided.
 
 ### General Form of Admissible Distributions
-In Theorem 1, we provided "the most concise" general form of $(\alpha, \beta)$-admissible distributions. Based on this, it is possible to construct a variety of admissible distributions, e.g., those with density $h(z) \propto \frac{1}{(|z|^a + b)^c}$ (with appropriate $a$, $b$, and $c$) and Student's t-distributions. Finding "the best" distribution among them might be an important future challenge. 
+In Theorem 1, we provided "the most concise" general form of $(\alpha, \beta)$-admissible distributions. Based on this, it is possible to construct a variety of admissible distributions, e.g., those with density $h(z) \propto \frac{1}{(|z|^a + b)^c}$ (with appropriate $a$, $b$, and $c$) including Student's t-distributions. Finding "the best" distribution among them might be an important future challenge. 
 
 If you find any other important issues or errors, please feel free to contact me!
 
