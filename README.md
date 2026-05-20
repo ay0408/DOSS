@@ -15,11 +15,15 @@ The run time of our algorithm (Algorithm 1 in our paper) was measured for refere
 The omitted proofs in the main paper are provided in Proofs.pdf.
 
 ## Important Note
+### Relation between $S^{ i \pm}(x)$ and $S^{ i \mp}(y)$
 We should state that Lemma 2 is satisfied (i.e., the algorithm using the proposed DOSS is $\epsilon$-differentially private) when the following relation holds:  
 $\forall x,y \in D^n, d(x,y)= 1 \ \mathrm{and} \ \forall i: \ \ S^{ i  -}(x) \leq e^{\beta} \cdot S^{ i  +}(y) \land S^{ i  +}(x) \leq e^{\beta} \cdot S^{ i  -}(y).$   
 (The Proofs.pdf was revised accordingly.) Please note that the experiments in this study assumed that the above condition held for the obtained $S^{ i \pm}(x)$.
 
 In our paper at IEEE CCWC 2026 on [Enhanced DOSS](https://github.com/ay0408/EnhancedDOSS), we addressed the above issue and proposed more reliable and useful concepts and algorithms. A more concise proof was also provided.
+
+### General Form of Admissible Distributions
+In Theorem 1, we provided "the most concise" general form of $(\alpha, \beta)$-admissible distributions. Based on this, it is possible to construct a variety of admissible distributions, e.g, those with density $h(z) \propto \frac{1}{(|z|^a + b)^c}$ (with appropriate $a$, $b$, and $c$) and Student's t-distributions. Finding "the best" distribution among them might be an important future challenge. 
 
 If you find any other important issues or errors, please feel free to contact me!
 
@@ -29,7 +33,7 @@ If you find any other important issues or errors, please feel free to contact me
 
 ・Investigating $(\alpha, \beta)$-admissible distributions on $m$-dimensional space, especially when $m$ is large.
 
-・Are there any cases where $\alpha$ and $\beta$ in the ${\it admissible}$ property should not be represented as linear functions of $\epsilon$? / Given functions $\alpha$ and $\beta$, is it possible to find an $(\alpha, \beta)$- ${\it admissible}$ distribution?
+・Are there any cases where $\alpha$ and $\beta$ in the ${\it admissible}$ property should not be represented as linear functions of $\epsilon$? / Given functions $\alpha$ and $\beta$, is it possible to find an $(\alpha, \beta)$-admissible distribution?
 
 ・Developing more efficient methods for computing direction-oriented local sensitivity and smooth sensitivity.  
 ← It might be beneficial to considering the dependency of dimensions.
@@ -39,7 +43,7 @@ If you find any other important issues or errors, please feel free to contact me
 For details of our methods and discussion, please see our paper entitled "Direction-Oriented Smooth Sensitivity and Its Application to Genomic Statistical Analysis" (https://doi.org/10.1007/978-981-96-9101-2_4) presented at ACISP 2025. 
 
 Errata:  
-・Discussion following Definition 6, $\frac{\epsilon}{2(\gamma - 1)}$ → $\min\left( \frac{\epsilon}{2(\gamma - 1)}, \ \frac{\epsilon}{2} \right)$  
+・The part following Definition 6, $\frac{\epsilon}{2(\gamma - 1)}$ → $\min\left( \frac{\epsilon}{2(\gamma - 1)}, \ \frac{\epsilon}{2} \right)$  
 ・Theorem 1, $\frac{\epsilon}{2(k - 1)}$ → $\min\left( \frac{\epsilon}{2(k - 1)}, \ \frac{\epsilon}{2} \right)$  
 ・Lemma 2, "is $\epsilon$-differentially private" → "can be $\epsilon$-differentially private"  
 In particular, when $\forall x,y \in D^n, d(x,y)= 1 \ \mathrm{and} \ \forall i: \ \ S^{ i  -}(x) \leq e^{\beta} \cdot S^{ i  +}(y) \land S^{ i  +}(x) \leq e^{\beta} \cdot S^{ i  -}(y)$ holds, the alogorithm is $\epsilon$-differentially private. In Proofs.pdf, we provide the proof for the case. (See also Important Note above.)  
